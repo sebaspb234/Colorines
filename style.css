@@ -1,0 +1,41 @@
+html, body{
+    width: 100%;
+}
+
+body {
+    background: linear-gradient(to right, #0074D9, #7FDBFF);
+  }
+
+.cuadro1, .cuadro2 ,.cuadro3, .cuadro4{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    
+}
+
+.center{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.cuadro1 {
+    background-color: red;
+}
+.cuadro2 {
+    background-color: blue;
+}
+.cuadro3 {
+    background-color: yellow;
+}
+.cuadro4 {
+    background-color: green;
+}
+
+.titulo{ 
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: darkblue;
+    font-weight: bolder;
+}
